@@ -11,8 +11,7 @@
   	border-radius: 200px;
   	display: block;
   	position: absolute;  
-  	opacity: 0.6;
-  	filter: saturate(160%) brightness(80%);
+  	mix-blend-mode: multiply;
 }
 
 .blue {
@@ -22,16 +21,13 @@
 .red {
   transform: rotate(75deg) translateX(170px);
   background: #E01765;
-  z-index: 2;
-  opacity: 0.7;
+  opacity: 1;
 }
 .green {
   transform: rotate(165deg) translateX(170px);
-  z-index: 1;
   background: #3EB890;
 }
 .yellow {
   transform: rotate(165deg) translateX(-170px);
   background: #E8A723;
-  z-index: 1;
 }
