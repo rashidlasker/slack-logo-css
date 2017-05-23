@@ -1,0 +1,37 @@
+.logo{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 50px; 
+	width: 0%;
+}
+
+.line{
+	width: 150px;
+ 	height: 800px;
+  	border-radius: 200px;
+  	display: block;
+  	position: absolute;  
+  	opacity: 0.6;
+  	filter: saturate(160%) brightness(80%);
+}
+
+.blue {
+  transform: rotate(75deg) translateX(-170px);
+  background: #70CADB;
+}
+.red {
+  transform: rotate(75deg) translateX(170px);
+  background: #E01765;
+  z-index: 2;
+  opacity: 0.7;
+}
+.green {
+  transform: rotate(165deg) translateX(170px);
+  z-index: 1;
+  background: #3EB890;
+}
+.yellow {
+  transform: rotate(165deg) translateX(-170px);
+  background: #E8A723;
+  z-index: 1;
+}

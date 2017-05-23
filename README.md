@@ -1,1 +1,1 @@
-"# slack-logo-css" 
+# slack-logo-css
